@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "kmp-nativecoroutines",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rickclephas/KMP-NativeCoroutines.git",
+      "state" : {
+        "revision" : "844e7330b8496475143e64e97ba2b567348f0309",
+        "version" : "1.0.0-ALPHA-5-spm-async"
+      }
+    }
+  ],
+  "version" : 2
+}

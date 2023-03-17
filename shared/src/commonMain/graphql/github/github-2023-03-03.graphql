@@ -1,0 +1,18 @@
+query RepositoryWatchers($name: String!, $owner: String!, $first: Int!, $after: String) {
+  repository(name: $name, owner: $owner) {
+    watchers(first: $first, after: $after) {
+      totalCount
+      pageInfo {
+        startCursor
+        hasPreviousPage
+        hasNextPage
+        endCursor
+      }
+      nodes {
+        id
+        avatarUrl
+        name
+      }
+    }
+  }
+}
